@@ -1,0 +1,263 @@
+/* DEFAULT SETTINGS */
+
+html {
+  font-size: 62.9%;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background-color: #C0DBCC;
+  margin: 0;
+}
+
+.homepage-container {
+   overflow-x: hidden;
+}
+
+
+/* Slide out Navigation Menu */
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-image: url("/images/wooden-texture.png");
+  background-size: 100% 300px;
+  background-color: #A23E34;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+  position: relative;
+  top: 25%; /* 25% from the top */
+  width: 100%; /* 100% width */
+  text-align: center; /* Centered text/links */
+  margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 3rem;
+  color: #FFF;
+  display: block; /* Display block instead of inline */
+  transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+/* Nav */
+
+nav {
+  background-color: #008889;
+  background-image: url("/images/wooden-texture.png");
+  background-size: 100% 400px;
+  box-shadow: 4px 3px rgba(0,0,0,0.2);
+  width: 100%;
+  position: fixed;
+}
+
+.container {
+  margin: 0px 65px;
+  padding: 20px 0px;
+}
+
+.columns {
+  display: table;
+  width: 100%;
+}
+
+.col {
+  display: table-cell;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.logo-wrapper img {
+  width: 155px;
+  height: 88px;
+  vertical-align: middle;
+  box-shadow: 5px 5px rgba(0,0,0,0.3);
+}
+span {
+  font-size: 6rem;
+  float: right;
+}
+
+
+@media (max-width: 808px) {
+  .container {
+    margin: 0px 30px;
+    padding: 10px 0px;
+  }
+  .logo-wrapper img {
+    width: 105px;
+    height: 77px;
+    }
+  }
+
+@media (max-width: 480px) {
+  span {
+  font-size: 3rem;
+}
+
+  .container {
+    margin: 0px 10px;
+    padding: 10px 0px;
+    text-align: center;
+    }
+  }
+
+
+  /* Service page */
+
+
+  /* main image
+    scroll animations
+    */
+.services {
+ position: relative;
+ overflow: hidden;
+
+}
+
+.services-container {
+  margin: 0px 65px;
+  padding: 125px 0px;
+/*  border: 35px solid transparent;
+  border-image: url(/images/metal-frame.jpg) 60 round;
+  border-top: ;
+*/}
+
+.service-banner {
+/*  background-image: url("/images/banner-major.jpeg");*/
+  background-repeat: no-repeat;
+  background-size: 100% 400px;
+  width: 100%;
+  height: 400px;
+}
+
+.service-image-overlay {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+
+h4 {
+  font-size: 3.6rem;
+  padding: 20px;
+  color: #A23E34;
+}
+
+.content {
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+/* FOOTER */
+
+footer {
+  position: relative;
+  background-color: #A23E34;
+  background-image: url("/images/wooden-texture.png");
+  background-size: 100% 200px;
+  width: 100%;
+}
+
+.footer-container {
+  margin: 0px 65px;
+  padding: 40px 0px;
+}
+
+li {
+  cursor: pointer;
+  display: inline-block;
+  color: #fff;
+  font-size: 1.4rem;
+  margin: 0px 5px;
+}
+
+li:after {
+  content: "|";
+  margin: 0px 8px;
+}
+
+.footer-columns {
+  display: table;
+  width: 100%;
+}
+
+.footer-col {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.logo-wrapper-footer img {
+  padding: 15px;
+  width: 65px;
+  height: 40px;
+  box-shadow: 2px 3px rgba(0,0,0,0.3);
+
+}
+
+.logo-wrapper-secondary img {
+  text-align: center;
+  width: 55px;
+  height: 40px;
+}
+
+
+
+@media(max-width: 808px) {
+
+.footer-col {
+   display: block;
+    width: 100%;
+  }
+
+  li {
+  cursor: pointer;
+  display: inline-block;
+  color: #fff;
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+li:after {
+  content: "/";
+  margin: 0px 3px;
+}
+
+}
