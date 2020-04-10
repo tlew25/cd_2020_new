@@ -1,69 +1,65 @@
 <html>
   <body>
-  <div class="services">
+  <div class="boarding">
     <?php require_once('pages/header.php'); ?>
     <?php require_once('pages/navigation.php');?>
-    <div class="services-container">
+    <div class="service-container">
       <div class="service-banner">
         <div class="service-image-overlay">
-          <h4>Services & Prices</h4>
+          <div class="content">
+            <h1>Services</h1>
+          </div>
         </div>
       </div>
-      <div class="content">
-        <h1>Services</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dici enim nihil potest verius. Contineo me ab exemplis. Vide, ne etiam menses! nisi forte eum dicis, qui, simul atque arripuit, interficit. Nam prius a se poterit quisque discedere quam appetitum earum rerum, quae sibi conducant, amittere. Duo Reges: constructio interrete.
-
-        Sin te auctoritas commovebat, nobisne omnibus et Platoni ipsi nescio quem illum anteponebas? Dic in quovis conventu te omnia facere, ne doleas. Iubet igitur nos Pythius Apollo noscere nosmet ipsos. Nam, ut sint illa vendibiliora, haec uberiora certe sunt.
-
-        Etsi ea quidem, quae adhuc dixisti, quamvis ad aetatem recte isto modo dicerentur. Inde igitur, inquit, ordiendum est. Unum est sine dolore esse, alterum cum voluptate. Qui non moveatur et offensione turpitudinis et comprobatione honestatis? Istam voluptatem perpetuam quis potest praestare sapienti? Tollitur beneficium, tollitur gratia, quae sunt vincla concordiae. Expectoque quid ad id, quod quaerebam, respondeas.
-        </p>
-      </div>
-      <div class="columns">
-        <div class="cols">
-
+      <div class="boarding-columns">
+        <div class="boarding-col col-left">
+          <img class="boarding-img" src="/images/2020-logo.png" alt="">
+          <ul class="boarding-listing">
+            <h2>Boarding Services</h2>
+            <li>All dogs $46 per night.</li>
+            <li>Housemates boarding together discount $37/night per dog after the first dog.</li>
+            <li>Special holidays may require a $50 non-refundable deposit.</li>
+            <li>$20 fee for picking up after 12pm Monday – Saturday (no fee for dropping off after 12pm).</li>
+            <li>$20 fee for picking up /dropping off Sunday morning before 12pm. (no fee for picking up/dropping off after 12pm on Sundays).</li>
+            <li>Long Term boarding available.</li>
+            <li>Peak Season for 2020 includes:</li>
+            <li>New Year's Day - January 1</li>
+            <li>Spring Break/SXSW - March 13-22</li>
+            <li>Easter Weekend - April 10-12</li>
+            <li>Memorial Day Weekend - May 22-25</li>
+            <li>Summer June 1 - September 7</li>
+            <li>Holiday Season - November 15 - December 31</li>
+            <li>Price change during peak season:</li>
+            <li>$50 per night boarding for one dog.</li>
+            <li>$40 per night boarding for subsequent dog.</li>
+          </ul>
+        </div>
+        <div class="boarding-col col-right">
+          <img class="service-img"src="/images/service-img.jpeg" alt="">
         </div>
       </div>
     </div>
   </div>
-  <div class="boarding">
-    <div class="boarding-container">
-      <div class="service-banner">
-        <div class="service-image-overlay">
-          <h4>Services & Prices</h4>
-        </div>
+  <div class="daycare">
+  <?php require_once('pages/header.php'); ?>
+  <?php require_once('pages/navigation.php');?>
+  <div class="daycare-container">
+    <div class="daycare-columns">
+      <div class="boarding-col daycare-col-left">
+        <img class="service-img"src="/images/banner-major.jpeg" alt="">
       </div>
-      <div class="content">
-        <h1>Services</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dici enim nihil potest verius. Contineo me ab exemplis. Vide, ne etiam menses! nisi forte eum dicis, qui, simul atque arripuit, interficit. Nam prius a se poterit quisque discedere quam appetitum earum rerum, quae sibi conducant, amittere. Duo Reges: constructio interrete.
-
-        Sin te auctoritas commovebat, nobisne omnibus et Platoni ipsi nescio quem illum anteponebas? Dic in quovis conventu te omnia facere, ne doleas. Iubet igitur nos Pythius Apollo noscere nosmet ipsos. Nam, ut sint illa vendibiliora, haec uberiora certe sunt.
-
-        Etsi ea quidem, quae adhuc dixisti, quamvis ad aetatem recte isto modo dicerentur. Inde igitur, inquit, ordiendum est. Unum est sine dolore esse, alterum cum voluptate. Qui non moveatur et offensione turpitudinis et comprobatione honestatis? Istam voluptatem perpetuam quis potest praestare sapienti? Tollitur beneficium, tollitur gratia, quae sunt vincla concordiae. Expectoque quid ad id, quod quaerebam, respondeas.
-        </p>
+      <div class="boarding-col daycare-col-right">
+          <ul class="daycare-listing">
+            <h2>Daycare Services</h2>
+            <h2>Monday – Friday</h3>
+            <li>Note: We do not feed daycare dogs unless owner requests that we do so, they are provided unlimited access to water at all times.</li>
+            <li>Small Dog - $225 ($22.50/day for 10 days)/li>
+            <li>Large Dog ( >25lb): $30/day</li>
+            <li>Small Dog (25lb or less): $25/day</li>
+            <h2>Discounted 10-day Daycare Packages</h3>
+            <li>Large Dog - $270 ($27/day for 10 days)</li>
+          </ul>
       </div>
-      <div class="columns">
-        <div class="cols">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dici enim nihil potest verius. Contineo me ab exemplis. Vide, ne etiam menses! nisi forte eum dicis, qui, simul atque arripuit, interficit. Nam prius a se poterit quisque discedere quam appetitum earum rerum, quae sibi conducant, amittere. Duo Reges: constructio interrete.
-
-Sin te auctoritas commovebat, nobisne omnibus et Platoni ipsi nescio quem illum anteponebas? Dic in quovis conventu te omnia facere, ne doleas. Iubet igitur nos Pythius Apollo noscere nosmet ipsos. Nam, ut sint illa vendibiliora, haec uberiora certe sunt.
-
-Etsi ea quidem, quae adhuc dixisti, quamvis ad aetatem recte isto modo dicerentur. Inde igitur, inquit, ordiendum est. Unum est sine dolore esse, alterum cum voluptate. Qui non moveatur et offensione turpitudinis et comprobatione honestatis? Istam voluptatem perpetuam quis potest praestare sapienti? Tollitur beneficium, tollitur gratia, quae sunt vincla concordiae. Expectoque quid ad id, quod quaerebam, respondeas.
-
-Alterum significari idem, ut si diceretur, officia media omnia aut pleraque servantem vivere. Virtutis, magnitudinis animi, patientiae, fortitudinis fomentis dolor mitigari solet. Si longus, levis dictata sunt. Polycratem Samium felicem appellabant. Eaedem enim utilitates poterunt eas labefactare atque pervertere. Quamvis enim depravatae non sint, pravae tamen esse possunt. Estne, quaeso, inquam, sitienti in bibendo voluptas? Sed in rebus apertissimis nimium longi sumus. Rationis enim perfectio est virtus; Tum Quintus: Est plane, Piso, ut dicis, inquit. Nam aliquando posse recte fieri dicunt nulla expectata nec quaesita voluptate. Quod autem satis est, eo quicquid accessit, nimium est;
-
-Venit enim mihi Platonis in mentem, quem accepimus primum hic disputare solitum; Tuo vero id quidem, inquam, arbitratu. Quod si ita sit, cur opera philosophiae sit danda nescio. Certe nihil nisi quod possit ipsum propter se iure laudari. Id enim volumus, id contendimus, ut officii fructus sit ipsum officium. Aufert enim sensus actionemque tollit omnem. Nihilo beatiorem esse Metellum quam Regulum. Haec quo modo conveniant, non sane intellego.
-        </div>
-                <div class="cols">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dici enim nihil potest verius. Contineo me ab exemplis. Vide, ne etiam menses! nisi forte eum dicis, qui, simul atque arripuit, interficit. Nam prius a se poterit quisque discedere quam appetitum earum rerum, quae sibi conducant, amittere. Duo Reges: constructio interrete.
-
-Sin te auctoritas commovebat, nobisne omnibus et Platoni ipsi nescio quem illum anteponebas? Dic in quovis conventu te omnia facere, ne doleas. Iubet igitur nos Pythius Apollo noscere nosmet ipsos. Nam, ut sint illa vendibiliora, haec uberiora certe sunt.
-
-Etsi ea quidem, quae adhuc dixisti, quamvis ad aetatem recte isto modo dicerentur. Inde igitur, inquit, ordiendum est. Unum est sine dolore esse, alterum cum voluptate. Qui non moveatur et offensione turpitudinis et comprobatione honestatis? Istam voluptatem perpetuam quis potest praestare sapienti? Tollitur beneficium, tollitur gratia, quae sunt vincla concordiae. Expectoque quid ad id, quod quaerebam, respondeas.
-
-Alterum significari idem, ut si diceretur, officia media omnia aut pleraque servantem vivere. Virtutis, magnitudinis animi, patientiae, fortitudinis fomentis dolor mitigari solet. Si longus, levis dictata sunt. Polycratem Samium felicem appellabant. Eaedem enim utilitates poterunt eas labefactare atque pervertere. Quamvis enim depravatae non sint, pravae tamen esse possunt. Estne, quaeso, inquam, sitienti in bibendo voluptas? Sed in rebus apertissimis nimium longi sumus. Rationis enim perfectio est virtus; Tum Quintus: Est plane, Piso, ut dicis, inquit. Nam aliquando posse recte fieri dicunt nulla expectata nec quaesita voluptate. Quod autem satis est, eo quicquid accessit, nimium est;
-
-Venit enim mihi Platonis in mentem, quem accepimus primum hic disputare solitum; Tuo vero id quidem, inquam, arbitratu. Quod si ita sit, cur opera philosophiae sit danda nescio. Certe nihil nisi quod possit ipsum propter se iure laudari. Id enim volumus, id contendimus, ut officii fructus sit ipsum officium. Aufert enim sensus actionemque tollit omnem. Nihilo beatiorem esse Metellum quam Regulum. Haec quo modo conveniant, non sane intellego.
-        </div>
       </div>
     </div>
   </div>

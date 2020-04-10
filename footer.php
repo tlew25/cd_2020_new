@@ -8,14 +8,14 @@
       </div>
       <div class="footer-col">
         <ul>
-          <li><a href=""></a>Crackerdog Customized Canine Care &copy;
+          <li class="footer-items"><a href=""></a>Crackerdog Customized Canine Care &copy;
           <?php
             $currentTimeinSeconds = time();
             $currentDate = date('Y', $currentTimeinSeconds);
             echo ($currentDate);   ?>
           </li>
-          <li><a href=""></a>Location</li>
-          <li><a href=""></a>About</li>
+          <li class="footer-items"><a href=""></a>Location</li>
+          <li class="footer-items"><a href=""></a>About</li>
         </ul>
       </div>
     </div>

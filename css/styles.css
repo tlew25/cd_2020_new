@@ -6,8 +6,11 @@ html {
 }
 
 body {
-  background-color: #C0DBCC;
+  background-color: #008889;
   margin: 0;
+ /* font-family: 'Crimson Text', serif; */
+font-family: 'Karla', sans-serif;
+/*font-family: 'Girassol', cursive;*/
 }
 
 .homepage-container {
@@ -150,17 +153,14 @@ span {
 .services-container {
   margin: 0px 65px;
   padding: 125px 0px;
-/*  border: 35px solid transparent;
-  border-image: url(/images/metal-frame.jpg) 60 round;
-  border-top: ;
-*/}
+}
 
 .service-banner {
-/*  background-image: url("/images/banner-major.jpeg");*/
+  background-image: url("/images/service-main-image.jpeg");
   background-repeat: no-repeat;
-  background-size: 100% 400px;
+  background-size: 100% 700px;
   width: 100%;
-  height: 400px;
+  height: 700px;
 }
 
 .service-image-overlay {
@@ -170,29 +170,33 @@ span {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.3);
   z-index: 2;
-  cursor: pointer;
 }
 
 h4 {
   font-size: 3.6rem;
   padding: 20px;
   color: #A23E34;
+/*ont-family: 'Crimson Text', serif;
+font-family: 'Karla', sans-serif;*/
+font-family: 'Girassol', cursive;
 }
 
 .content {
+  position: absolute;
+  top: 20%;
+  left: 10%;
   text-align: center;
-  font-size: 1.6rem;
+  font-size: 3.2rem;
 }
 
 /* FOOTER */
 
 footer {
-  position: relative;
-  background-color: #A23E34;
+  background-color: #008889;
   background-image: url("/images/wooden-texture.png");
-  background-size: 100% 200px;
+  background-size: 100% 500px;
   width: 100%;
 }
 
@@ -201,7 +205,7 @@ footer {
   padding: 40px 0px;
 }
 
-li {
+.footer-items {
   cursor: pointer;
   display: inline-block;
   color: #fff;
@@ -209,7 +213,7 @@ li {
   margin: 0px 5px;
 }
 
-li:after {
+.footer-items:after {
   content: "|";
   margin: 0px 8px;
 }
@@ -222,6 +226,11 @@ li:after {
 .footer-col {
   display: table-cell;
   vertical-align: middle;
+  width: 50%;
+}
+
+p {
+  font-size: 1.5rem;
 }
 
 .logo-wrapper-footer img {
@@ -247,17 +256,122 @@ li:after {
     width: 100%;
   }
 
-  li {
+.footer-items {
   cursor: pointer;
   display: inline-block;
   color: #fff;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   margin: 0;
 }
 
-li:after {
+.footer-items:after {
   content: "/";
   margin: 0px 3px;
 }
 
+}
+
+.boarding-columns {
+  display: table;
+  width: 100%;
+}
+
+.boarding-col {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.col-left {
+  position: relative;
+  background-color: #EEEEEE;
+  width: 60%;
+  border-top: 10px solid #008889;
+}
+
+.col-right {
+  position: relative;
+  width: 40%;
+}
+.boarding-img {
+  position: absolute;
+  bottom: 30%;
+  right: 40%;
+  height: 180px;
+  width: auto;
+}
+
+.service-img {
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: auto;
+  border-left: 10px solid #008889;
+}
+.boarding-listing {
+  padding: 40px 20px;
+}
+
+.boarding-listing  li {
+  font-size: 1.6rem;
+  color: #000;
+  padding-bottom: 15px;
+  display: block;
+}
+
+.content h1 {
+  font-family: 'Girassol', cursive;
+}
+
+/* Daycare */
+
+.daycare {
+
+}
+
+.daycare-container {
+
+}
+
+.daycare-columns {
+  display: table;
+  width: 100%;
+}
+
+.daycare-col {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.daycare-col-left {
+  position: relative;
+  width: 40%;
+  border-top: 10px solid #008889;
+}
+
+.daycare-col-right {
+  position: relative;
+  background-color: #EEEEEE;
+  border-top: 10px solid #A23E34;
+  width: 50%;
+}
+
+.daycare-listing {
+  padding: 20px 40px;
+}
+
+.daycare-listing h2 {
+  text-align: right;
+}
+
+
+.daycare-listing  li {
+  font-size: 1.6rem;
+  color: #000;
+  text-align: right;
+  padding-bottom: 15px;
+  display: block;
+}
+
+h3 {
+  text-align: right;
 }
